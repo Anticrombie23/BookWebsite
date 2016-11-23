@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!--
+
+-->
+<html>
+    <head>
+        <title>Josh Harm's Final Project, version 2</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href ="style.css"/>  
+    </head>
+    
+     <div id ='wrapper'>
+    
+    <header id = "totalHead">
+        <img id ="headerImage" src ='logo.gif' width = "400" height = "150"/>        
+        
+        <nav id = "navigation"  role="navigation">
+            <ul class = "nav">
+                <li><a href = "index.html">Home</a> </li>
+                <li id = "check"><a href = "Books.html">Books</a> </li>
+                   <li>
+                       <ul>
+                           <li> <a href ="C-Programming-Language.html">C-Programming Language</a></li>
+                           <li> <a href ="Database-Systems.html">Database Systems</a></li>
+                           <li> <a href ="HTML-AND-CSS.html">HTML and CSS</a></li>
+                           <li> <a href ="Java-Programming.html">Java Programming</a></li>
+                       </ul>
+                   </li>
+                   <li><a href = "About.html">About</a> </li>
+                   <li><a href = "ContactMe.html">Contact</a></li>
+                             
+            </ul>            
+        </nav>        
+    </header>
+    
+    <article>
+        <main id ='main' role ="main">
+            
+           <!-- I added a bookdivider class to separate each book and place a blue border line. The bookdivider class also clears out any floating to prevent the
+		   the sections from running together -->
+            <h2>Joshua Harm's Favorite Books</h2>  
+                 <p id ="headerPara">
+                     This website contains several descriptions of my favorite books. I created this web site to give you some basic overviews of the books that I consider to be not only personal favorites of mine, but also educational. I hope you will like my book descriptions and furthermore, I hope you will purchase one of my books from <a id="unique" href = "http://www.amazon.com/"> <b>Amazon</b></a>. Listed below are my favorite books. Click one of them to see a detailed description of that book. 
+                </p>  
+                
+               
+                <!-- I moved your imagePara class to be under the img tab. This was causing your book border to drop off. -->
+                
+                    <img id ='paraText' src='c_programming.jpg'> 
+					<p class ="imagePara">
+                    The C programming language by Dennis M Ritchie and Brian W Keringhan is an excellent book for both new comers and expert programmers. The book is packed with many examples and is yet small and concise. This book is written by the person that created the language, so there is no better source of information. I highly recommend this book to anyone who wishes to become a really good programmer... <a  href ='C-Programming-Language.html'>Read more</a>
+                </p>
+            <p class='bookdivider'></p>
+            
+            
+                  <img id = "paraText" src='database_systems.jpg'>
+				  <p class = "imagePara">
+                  Database Systems is my favorite book for learning SQL and the principles of Database design. SQL is the primary language used for talking to a database, and this book explains the language in detail. Whether you are a novice or an advanced SQL developer, you will learn a lot from this... <a  href ='Database-Systems.html'>Read more</a>
+                </p>  
+                
+            <p class='bookdivider'></p>
+                
+                                 
+                     <img id = "paraText" src='html_and_css.jpg'>
+					 <p class = "imagePara">
+                     HTML and CSS is a great book for new comers to web Design. This book is packed with lots of examples, and is easy to read for beginners and challenging enough for experienced programmers and web designers. It is a must... <a  href ='HTML-AND-CSS.html'>Read more</a>
+                </p>                     
+                    
+                <p class='bookdivider'></p>
+           
+                                
+                     <img id ="paraText" src='java_programming.jpg'>
+					 <p class = "imagePara">
+                     Java programming could not be an easier book. This was my first book I ever read when it came to learning Java. I can tell you from experience that I have <b>NEVER</b> read a book better than this one when it came to learning Java. Java is a tough language to learn but this book makes it easy to get started building... <a  href ='Java-Programming.html'>Read more</a>
+                </p>                     
+                    
+                <p class='bookdivider'></p>
+            
+        </main>
+        
+        
+    </article>
+       
+         
+         
+     </div>
+    
+    <div style="clear: both"></div>
+    
+    <footer>
+             <ul>
+                 <li><a href="facebook-icon.png"><img src='facebook-icon.png'></a></li>
+                 <li><a href="twitter-icon.png"><img src='twitter-icon.png'></a></li>
+                 <li><a href="linkedin-icon.png"><img src='linkedin-icon.png'></a></li>
+                 <li><a href="pinterest-icon.png"><img src='pinterest-icon.png'></a></li>
+             </ul>
+             
+             <p>
+                 <a href ="index.html">Home</a> | <a href ="About.html">About</a> | <a href ="ContactMe.html">Contact</a>
+             </p>
+             
+             <p>
+                 <a href ="C-Programming-Language.html">The C Programming Language</a> | <a href ="Database-Systems.html">Database Systems</a> | <a href ="HTML-AND-CSS.html">HTML and CSS</a> | <a href ="Java-Programming.html">Java Programming</a>
+             </p>
+             
+             <p> &copy; 2016 By Joshua Harm. All Rights Reserved</p>
+         </footer>
+    
+</html>

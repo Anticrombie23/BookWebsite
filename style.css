@@ -1,0 +1,170 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 18, 2016, 4:58:05 PM
+    Author     : joshh
+*/
+
+
+ #totalHead{
+    border-bottom: 1px solid blue;
+    padding-top: 12px;
+} 
+
+nav li{
+    position:relative;
+    display:inline-block;
+    padding: 0.5em;
+} 
+
+header nav{
+    float:right;
+} 
+
+ #aboutMe{
+    border-bottom: 1px solid blue;
+    
+} 
+ tab1 { padding-left: 4em; } 
+
+
+
+ #formBorder{
+   border-radius: 1px;
+   border: 5px solid rgba(255, 255, 255, .5);
+    
+} 
+
+ #aboutMe h2 {
+    text-align: center;
+} 
+
+ h2{
+    text-align: center;
+} 
+
+ #unique{
+    text-decoration: none;
+} 
+
+ #wrapper{
+    width:1200px;
+    margin: 0 auto;
+    background-color: white;
+} 
+
+ li a:hover {
+    color: darkblue;
+} 
+
+ #book a {
+    float:left;
+} 
+ 
+
+ #book {
+    border-bottom: 1px solid blue;
+    text-align: justify;
+    width: 800px;
+    
+}  
+
+ #paraText {
+ display: inline;
+    float:left;
+  /*   padding: 5px;  */
+	border: 1px blue solid; /* I added this to place a border around the books */
+} 
+
+/* I added this bookdivider class to separate the books on the index.html page. */
+.bookdivider {
+    clear: both;
+    border-bottom: 1px blue solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+ #formContent {
+    width: 250px;
+    text-align: justify;
+}  
+
+
+
+ #headerPara {
+    font-family: Geneva;
+    font-size: 1.125em;
+    line-height: 1.45;
+    font:bold;
+} 
+
+ p.imagePara{
+    text-align: justify;
+  /*  float:left;  */
+   /*  border-bottom:1px solid blue; */
+    width: 800px;
+    padding: 5px;    
+    font-family: Georgia;
+}  
+
+#bookDetails {
+    border-bottom: 1px solid blue;
+    padding: 5px;
+    width: 50%;    
+}  
+
+ img:hover{
+    opacity: 0.65;
+}  
+
+ 
+footer ul li {
+    display:inline;
+    
+} 
+
+/* I moved the statement below up above the #bookContents. For some odd reason it was cuasing your bookContents formatting to fail */
+ nav ul ul {
+   background: #fff; 
+   padding: 0;
+   position: absolute;  
+   top: 5%; 
+   color: blue;
+}​ 
+
+ nav ul ul {
+    display:none;
+}  
+
+ p input {
+    float: right;
+}  
+
+ nav ul li:hover > ul {
+   display: block;
+} 
+
+#bookContents{
+    background: beige;
+    border-style: solid;
+    border-color: brown;
+    font-family: monospace;
+    border-radius: 10px;
+    width: 100%;   
+}
+
+footer p a {
+    padding: 1em;
+    text-align: center;
+}
+
+footer {
+    
+    margin:auto;    
+    text-align: center;
+    font-size: 0.85em;
+    color:gray;
+}
